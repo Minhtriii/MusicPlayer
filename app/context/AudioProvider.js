@@ -81,7 +81,7 @@ export class AudioProvider extends Component {
     }
 
     render() {
-        const {audioFiles, dataProvider, permissionError} = this.state()
+        const {audioFiles, dataProvider, permissionError} = this.state;
         if(permissionError) 
             return
                 <View style={{
